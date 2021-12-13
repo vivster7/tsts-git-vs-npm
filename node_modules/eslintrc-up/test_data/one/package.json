@@ -1,0 +1,20 @@
+{
+  "name": "eslintrc-up",
+  "version": "0.1.0",
+  "description": "Find the closes eslint config file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Ola Holmström",
+  "license": "ISC",
+  "eslintConfig": "../aneslintrc.js",
+  "dependencies": {
+    "find-up": "^1.1.2",
+    "read-pkg-up": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "standard": "^7.1.1"
+  }
+}
